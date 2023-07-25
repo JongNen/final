@@ -20,7 +20,7 @@ import lombok.Setter;
 public class Feed {
 	
 	@Id
-	@GeneratedValue(strategy = GenerationType.SEQUENCE)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id; // 기본 키
 	
 	@ManyToOne
